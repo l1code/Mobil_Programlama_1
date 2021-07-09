@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llEkle"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KitapEkleActivity">
+
+
+    <EditText
+        android:id="@+id/etBaslik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:inputType="textPersonName"
+        android:hint="@string/etBaslik">
+
+    </EditText>
+    <EditText
+        android:id="@+id/etYazar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:inputType="textPersonName"
+
+        android:hint="@string/etYazar">
+
+    </EditText>
+    <EditText
+        android:id="@+id/etSayfaSayisi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:inputType="textPersonName"
+        android:hint="@string/etSayfaSayisi">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btnKitapEkle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:background="@color/white"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:text="@string/btnKitapEkle">
+
+    </Button>
+
+
+
+
+</LinearLayout>

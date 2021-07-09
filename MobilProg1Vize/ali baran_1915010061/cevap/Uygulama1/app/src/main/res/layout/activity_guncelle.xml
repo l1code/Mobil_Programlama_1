@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llGuncelle"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KitapEkleActivity">
+
+
+    <EditText
+        android:id="@+id/etGuncelleBaslik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:hint="Başlik">
+
+    </EditText>
+    <EditText
+        android:id="@+id/etGuncelleYazar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:hint="Yazar">
+
+    </EditText>
+    <EditText
+        android:id="@+id/etGuncelleSayfaSayisi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:hint="Sayfa Sayisi">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btnGuncelleKitap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:background="@color/white"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textColor="@android:color/holo_green_dark"
+        android:text="@string/btnGuncelle">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnSilKitap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:background="@color/white"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="@string/btnSil">
+
+    </Button>
+
+
+
+
+</LinearLayout>
