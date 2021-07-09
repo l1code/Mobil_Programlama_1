@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    app:cardElevation="5dp"
+    app:cardCornerRadius="25dp"
+    app:cardBackgroundColor="@color/colorAccent"
+
+
+    android:padding="5dp"
+    android:layout_margin="3dp"
+    android:id="@+id/cvSatir"
+    >
+
+    //alt+enter tuşuna basarak sağladık.
+    //app: iki noktayı gördükten sonra alt+enter tuşuna
+    //aynı anda basınca app ile ilgili
+    //xmlns:app="http://schemas.android.com/apk/res-auto"
+    //bu satırı cardview e eklemektedir.
+    //Aksi takdirde app ifadesini tanımlayamayacaktır.
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/llIcerik"
+        >
+
+        <ImageView
+            android:id="@+id/ivImage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="2dp"
+            >
+
+        </ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/llSatir"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:padding="2dp"
+            android:id="@+id/tvAciklama"
+            android:textColor="@color/colorYazi"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:padding="2dp"
+            android:id="@+id/tvCikisTarih"
+            android:textColor="@color/colorYazi"
+            >
+
+        </TextView>
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

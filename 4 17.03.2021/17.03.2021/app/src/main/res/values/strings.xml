@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Aktiviteler</string>
+    <string name="ekle">Ekle</string>
+    <string name="horizontal">Yatay</string>
+    <string name="vertical">dikey</string>
+    <string name="weight">Ağırlık</string>
+    <string name="gravity">Yer Çekimi</string>
+    <string name="bluedark">Koyu Mavi</string>
+    <string name="orangedark">Koyu Portakal</string>
+    <string name="greenlight">Açık Yeşil</string>
+    <string name="greendark">Koyu Yeşil</string>
+    <string name="black">Siyah</string>
+    <string name="grey">Gri</string>
+    <string name="ikinci">İkinci Aktivite</string>
+    <string name="renk">Renk Aktivite</string>
+    <string name="geridon">Başa Dön</string>
+
+    <string name="btnToplama">Topla</string>
+</resources>

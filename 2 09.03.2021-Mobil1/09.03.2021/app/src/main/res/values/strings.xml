@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Uygulama2</string>
+    <string name="btnIlk">Bas</string>
+    <string name="tvHosgeldin">Hoş Geldin</string>
+    <string name="tvMerhaba">Hello World!</string>
+    <string name="btnIki">İkinci Düğme</string>
+</resources>

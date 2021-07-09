@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    tools:context=".IkinciActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/horizontal"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/btnHorizontal">
+
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vertical"
+        android:id="@+id/btnVertical"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        >
+
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/weight"
+        android:id="@+id/btnWeight"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        >
+
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gravity"
+        android:id="@+id/btnGravity"
+        android:textStyle="bold"
+        android:textSize="20sp">
+
+    </Button>
+
+</LinearLayout>

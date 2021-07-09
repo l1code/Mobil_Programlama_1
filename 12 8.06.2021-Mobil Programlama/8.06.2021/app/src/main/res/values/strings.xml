@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FileApplication2</string>
+    <string name="btnTarih">Tarih Değiştir</string>
+    <string name="etTarih"></string>
+    <string name="tvDosyaAdi">DosyaAdı:</string>
+    <string name="etDosyaAdi"></string>
+    <string name="btnOku">Oku</string>
+    <string name="btnKaydet">Kaydet</string>
+    <string name="tvDosyaVeri">Dosya Veri</string>
+    <string name="etDosyaVeri"></string>
+</resources>

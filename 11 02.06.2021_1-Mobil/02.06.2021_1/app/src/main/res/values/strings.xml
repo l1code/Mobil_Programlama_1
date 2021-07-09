@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FileApplication1</string>
+    <string name="etDosyaAdi"></string>
+    <string name="etDosyaOku"></string>
+    <string name="tvDosyaAdi">Dosya Adı:</string>
+    <string name="tvVeri">Veri:</string>
+    <string name="btnKaydet">Kaydet</string>
+    <string name="btnOku">Oku</string>
+</resources>

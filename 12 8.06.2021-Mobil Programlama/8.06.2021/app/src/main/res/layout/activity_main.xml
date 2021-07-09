@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvDosyaAdı"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvDosyaAdi"
+        android:textSize="50sp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/etDosyaAdi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/etDosyaAdi"
+        android:textSize="50sp"
+        android:hint="@string/etDosyaAdi"
+        android:importantForAutofill="no"
+        >
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvDosyaVeri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvDosyaVeri"
+        android:textSize="50sp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/etDosyaVeri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/etDosyaVeri"
+        android:hint="@string/etDosyaVeri"
+        android:importantForAutofill="no"
+        android:textSize="50sp"
+        >
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etTarih"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/etTarih">
+        </EditText>
+
+        <Button
+            android:id="@+id/btnTarihSec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/btnTarih"
+            android:onClick="TarihSec"
+            >
+
+        </Button>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnOku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnOku"
+        android:textSize="50sp"
+        android:onClick="Oku"
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnKaydet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnKaydet"
+        android:textSize="50sp"
+        android:onClick="Kaydet"
+        >
+
+    </Button>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lecture5</string>
+    <string name="etMesajIcerik">Mesaj İçerik</string>
+    <string name="btnMesajGonder">Mesaj Gönder</string>
+    <string name="tvGelenMesaj">Gelen Mesaj</string>
+
+</resources>

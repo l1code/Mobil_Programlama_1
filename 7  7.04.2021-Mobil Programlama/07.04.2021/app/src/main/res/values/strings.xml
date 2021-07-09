@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">VeritabaniIslemler</string>
+    <string name="ad">Adı</string>
+    <string name="soyadi">Soyadı</string>
+    <string name="telefon">Telefon</string>
+    <string name="kaydet">Kaydet</string>
+    <string name="veriListele">Veri Listele</string>
+    <string name="listele">Listele</string>
+    <string name="sil">Sil</string>
+    <string name="guncelle">Güncelle</string>
+</resources>

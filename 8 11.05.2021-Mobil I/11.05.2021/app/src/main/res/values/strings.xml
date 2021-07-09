@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Uygulama1</string>
+    <string name="yemekAdi">Yemek Adı</string>
+    <string name="yemekFiyat">Yemek Fiyat</string>
+    <string name="yemekSec">Yemek Seç</string>
+    <string name="yemekEkle">Yemek Ekle</string>
+    <string name="yemekListesi">Yemek Listesi</string>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvDosyaAdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvDosyaAdi">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/etDosyaAdi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/etDosyaAdi"
+        android:hint="@string/etDosyaAdi"
+        android:inputType="text"
+        android:importantForAutofill="no">
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvVeri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvVeri">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/etDosyaOku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/etDosyaOku"
+        android:importantForAutofill="no">
+
+    </EditText>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnKaydet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnKaydet"
+            style="?android:attr/buttonBarButtonStyle"
+            android:onClick="Kaydet"
+            >
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnOku"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnOku"
+            style="?android:attr/buttonBarButtonStyle"
+            android:onClick="Oku"
+            >
+
+        </Button>
+
+    </LinearLayout>
+
+
+</LinearLayout>
